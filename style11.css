@@ -1,3 +1,4 @@
+
 .main-block{
  background-color: white;
  position: absolute;
@@ -9,14 +10,14 @@
 }
 .first-block{
  background-color: whitesmoke;
- width: 500px;
- height: 800px;
+ width: 600px;
+ height: 700px;
  border-radius: 20px 0px 0px 20px;
 }
 .second-block{
  background-color: #1d98af;
- width: 500px;
- height: 800px;
+ width: 400px;
+ height: 700px;
  border-radius: 0px 20px 20px 0px;
  display:flex;
  align-items: center;
@@ -26,8 +27,73 @@
  text-align: center;
  color: grey;
 }
-.second-text{
+.second-header{
  text-align: center;
  color:white;
 
+}
+.badge{
+    margin-top: 50px;
+    line-height: 1.45;
+    display: flex;
+    padding: 4px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.first-badge{
+     border: 1px solid grey;
+     border-radius:200px;
+     text-align: center;
+     margin: 4px;
+     width: 50px;
+     line-height: 50px;
+     font-weight: 700;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   
+}
+.second-badge{
+    border: 1px solid grey;
+    border-radius:200px;
+    text-align: center;
+    margin: 4px;
+    width: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+  
+}
+.third-badge{
+    border: 1px solid grey;
+    border-radius:200px;
+    text-align: center;
+     margin: 4px;
+     width: 50px;
+     line-height: 50px;
+     font-weight: 700;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   
+}
+.first-block-text{
+    text-align: center;
+    color: grey;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.first-area{
+
+}
+.second-area{
+
+}
+.third-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
