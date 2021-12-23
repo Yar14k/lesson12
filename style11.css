@@ -13,15 +13,19 @@
  width: 600px;
  height: 700px;
  border-radius: 20px 0px 0px 20px;
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
 }
 .second-block{
  background-color: #1d98af;
  width: 400px;
  height: 700px;
  border-radius: 0px 20px 20px 0px;
- display:flex;
+ display:column;
  align-items: center;
- justify-content: center;
+ justify-content: space-around;
 }
 .first-text{
  text-align: center;
@@ -30,6 +34,9 @@
 .second-header{
  text-align: center;
  color:white;
+ display:flex;
+ align-items: center;
+ justify-content: center;
 
 }
 .badge{
@@ -54,46 +61,58 @@
      align-items: center;
    
 }
-.second-badge{
-    border: 1px solid grey;
-    border-radius:200px;
-    text-align: center;
-    margin: 4px;
-    width: 50px;
-    line-height: 50px;
-    font-weight: 700;
-    display: flex;
-     justify-content: center;
-     align-items: center;
-  
-}
-.third-badge{
-    border: 1px solid grey;
-    border-radius:200px;
-    text-align: center;
-     margin: 4px;
-     width: 50px;
-     line-height: 50px;
-     font-weight: 700;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-   
-}
+
 .first-block-text{
     text-align: center;
     color: grey;
     margin-top: 40px;
     font-size: 20px;
 }
-.first-area{
-
-}
-.second-area{
-
+.field{
+    display: block;
+    background-color: white;
+    padding: 20px 120px 15px 10px;
+    border: none;
+    opacity: 0.5;
+    margin: auto;
+    margin-top: 10px;
 }
 .third-area{
-    display: flex;
+    display: block;
+    border: none;
+    padding: 30px 60px;
+    opacity: 0.5;
+    margin: auto;
+}
+
+.btn{
+    background-color: #33FFE9;
+    width: 180px;
+    border-radius: 150px;
+    border: white 2px solid;
+    display:flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    height: 70px;
+} 
+
+.under-button{
+    color:grey;
+    text-decoration: none;
+    border-bottom: 3px dashed;
+}
+.second-block-text{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.btn-top1:hover{
+    background-color:green ;
+  
+}
+.btn-top1{
+    text-decoration: none;
+    color:black;
 }
